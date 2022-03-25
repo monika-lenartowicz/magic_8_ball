@@ -49,6 +49,12 @@ body {
 	cursor: pointer;
 }
 
+@media (max-width: 500px) {
+	.image {
+		left: 0px;
+	}
+}
+
 .questionArea {
 	display: flex;
 	justify-content: center;
@@ -69,6 +75,7 @@ body {
 	font-weight: bold;
 	color: #3aad8c;
 }
+
 .header {
 	margin-bottom: 10px;
 	font-size: 36px;
